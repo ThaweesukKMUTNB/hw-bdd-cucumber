@@ -22,12 +22,13 @@ module NavigationHelpers
     when /^the Create New Movie page/
       '/movies/new'
  
-
-    # Add more mappings here.
-    # Here is an example that pulls values out of the Regexp:
-    #
-    #   when /^(.*)'s profile page$/i
-    #     user_profile_path(User.find_by_login($1))
+    
+    when /^the "Search Results" page/ then '/movies/search_tmdb'
+      # Add more mappings here.
+      # Here is an example that pulls values out of the Regexp:
+      #
+      #   when /^(.*)'s profile page$/i
+      #     user_profile_path(User.find_by_login($1))
 
     else
       begin
