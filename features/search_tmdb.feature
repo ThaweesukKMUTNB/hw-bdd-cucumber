@@ -22,3 +22,4 @@ Scenario: Try to add existing movie (happy path)
   Then I should be on the "Search Results" page
   And I should not see "not found"
   And I should see "Inception"
+
